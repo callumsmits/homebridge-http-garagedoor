@@ -1,0 +1,20 @@
+{
+  "name": "homebridge-http-garagedoor",
+  "version": "0.0.1",
+  "description": "Homebridge garagedoor http interface",
+  "main": "index.js",
+  "author": "Callum Smits",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "garagedoor"
+  ],
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.5"
+  }
+}
