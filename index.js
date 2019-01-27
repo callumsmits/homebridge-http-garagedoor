@@ -93,7 +93,7 @@ HttpGarageDoorAccessory.prototype = {
     };
   
     this.triggerDoor = () => {
-      fetch(`http://${this.host}/triggerDoor`).catch(() => {});
+      fetch(`http://${this.host}/triggerMovement`).catch(() => {});
     };
 
     this.getTargetState = callback => {
